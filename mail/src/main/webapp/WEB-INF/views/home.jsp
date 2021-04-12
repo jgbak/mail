@@ -1,14 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+    <meta http-equiv="refresh" content="0;url=/dist/index.html">
+    <title>SB Admin</title>
+    <script language="javascript">
+        window.location.href = "/dist/index.html"
+    </script>
 </head>
-<body>
-<h1>
-	Hello world!  
-</h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<body>
+    Go to <a href="dist/index.html">/dist/index.html</a>
 </body>
+
 </html>
